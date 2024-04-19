@@ -1,0 +1,97 @@
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.container ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px; /* Adjust margin for responsiveness */
+  }
+  
+  .container a {
+    text-decoration: none;
+  }
+  
+  .container ul li {
+    margin-right: 10px;
+  }
+  
+  
+  .view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container img {
+    width: 15vw; 
+    max-width: 100%; 
+    height: auto;
+    position: relative;
+    border-radius: 10px 10px 39px 10px;
+    transition: 0.5s;
+  
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px 20px;
+    border-radius: 6px;
+    border: 2px solid white;
+    margin: 20px;
+
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column; /* Stack columns vertically on small screens */
+    align-items: start; /* Align items to the start */
+    margin-top: 5vh; /* Adjust margin for responsiveness */
+  }
+  
+  .left-column {
+    max-width: 90%; /* Adjust maximum width for small screens */
+  }
+  
+  .left-column h2 {
+    margin-bottom: 10px;
+  }
+  
+  .right-column {
+    margin-top: 10px; /* Adjust margin for responsiveness */
+  }
+  
+  .description {
+    max-width: 50%; /* Allow description to take full width of left column */
+    margin-bottom: 10px; /* Add space between description and button */
+  }
+  
+  button {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(135deg, #cfe2f3, #e2cfe3);
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+    max-width: 300px; /* Limit button width on large screens */
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid white;
+    display: inline;
+  }
+  
+  button:hover {
+    scale: 1.09;
+  }
+  
+  .container img:hover {
+    scale: 1.09;
+  }
+  

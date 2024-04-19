@@ -1,0 +1,33 @@
+body {
+    background-image: url("../../media/imgs/signinBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background: #303481;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+
+.container *{
+    color: #fff;
+    padding: 10px 40px;
+    box-sizing: border-box;
+  }
+
+.container li {
+    transition: 0.5s;
+}
+
+.container li:hover {
+    cursor: pointer;
+    scale: 1.09;
+}

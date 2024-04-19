@@ -1,0 +1,105 @@
+
+.add-books {
+  display: inline-block;
+  padding: 0px;
+}
+
+.add-books a span:hover {
+  color: antiquewhite;
+}
+
+.search {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4c8caf;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.search button:hover {
+  background-color: #397486; 
+}
+
+h2{
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+.bookGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 20px;
+  row-gap: 20px;
+}
+
+.bookGrid li {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.bookGrid li:hover {
+  transform: translateY(-5px); 
+}
+
+.bookGrid li img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.bookGrid li h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.bookGrid li h4,
+.bookGrid li h5 {
+  margin-top: 5px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.bookGrid li p {
+  color: #333;
+  font-size: 0.95em;
+}
+.header-bg {
+  background-image: url('bg.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  color: #fff; 
+  padding: 50px 0; 
+  height: 500px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
+
+.container h1 {
+  margin-bottom: 20px; 
+}
+
+.description {
+  display: none;
+}
